@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- This is the style links -->
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <!-- This is the title-->
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <!-- Link to highscores.html - seperate html to keep track of scores -->
+    <a href="scores.html">View Highscores</a>
+    <!-- This is a wrapper to box the main quiz menu -->
+    <article id="wrapper">
+        <!-- Timer ID for the-->
+        <time id="currentTime"></time>
+        <!-- Description for Quiz -->
+        <section id="questionsDiv">
+            <h1>Coding Quiz</h1>
+            <p>Test out your coding knowledge by completeing this quiz! Race against the clock
+                to earn your highscore and compete against your friends! Be wary though - any
+                incorrent question will time the clock down 10 seconds! Are you ready? 😈 
+                </p>
+            <ul id="choicesUl"></ul>
+            <!-- Button to start the Quiz -->
+            <button id="startTime">Start Quiz</button>
+        </section>
+
+    </article>
+
+
+    <script src="Assets/js/script.js"></script>
+
+
+</body>
+
+</html>
