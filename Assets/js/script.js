@@ -22,13 +22,13 @@ var questions = [
     },
     {
         title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
-        choices: ["Javascript", "terminal / bash", "for loops", "console log"],
+        choices: ["C++", "bash", "for loops", "console log"],
         answer: "console log"
     },
     {        
         title: "Which event occurs when the user clicks on an HTML element?",
-        choices: ["a. onclick", "b. onchange", "c. onmouseover", "d. onmouseclick"],
-        answer: "a. onclick"
+        choices: ["a. on-click", "b. nothing", "c. on-mouseover", "d. on-mouseclick"],
+        answer: "a. on-click"
     },
 
 ];
