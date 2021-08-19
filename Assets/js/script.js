@@ -195,5 +195,4 @@ function allDone() {
             window.location.replace("./scores.html");
         }
     );
-
 }
