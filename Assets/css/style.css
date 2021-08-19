@@ -1,5 +1,5 @@
 body,html{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Times, serif;
     background-image: url(Coding.jpg);
     height: 100%;
 }
@@ -10,7 +10,7 @@ body,html{
     top: 20%;
     width: 500px;
     height: 500px;
-    background-color: aliceblue;
+    background-color: rgb(163, 178, 190);
     border: 10px solid gold;
 }
 #startTime {
